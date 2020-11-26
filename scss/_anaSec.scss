@@ -1,4 +1,7 @@
-$theme-colors: ("success": #fd0239);
+$success: #FD0239;
+.bg-success {
+    background-color: $success !important;
+}
 .navbar {
     padding: 15px 20%;
     * {

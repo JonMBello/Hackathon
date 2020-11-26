@@ -87,6 +87,10 @@
   width: 200px;
 }
 
+.bg-success {
+  background-color: #FD0239 !important;
+}
+
 .navbar {
   padding: 15px 20%;
 }
