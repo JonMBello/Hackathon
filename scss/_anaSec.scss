@@ -8,6 +8,11 @@ $success: #FD0239;
         margin: 0 15px;
     }
 }
+.navbar-brand {
+    img {
+           width: 400px;          
+    }
+}
 .dropdown-menu {
     padding: 5px;
     text-align: left;
