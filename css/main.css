@@ -1,0 +1,379 @@
+.jon-articulo-2, .jon-articulo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.jon-titulo {
+  font-size: 48px;
+  font-family: Montserrat, sans-serif;
+  color: #20293d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.jon-articulo-1 {
+  padding-left: 200px;
+}
+
+.jon-articulo-2 {
+  padding-left: 100px;
+  padding-right: 200px;
+}
+
+.jon-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.jon-texto > h3 {
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #20293d;
+}
+
+.jon-texto > p {
+  font-size: 16px;
+  font-family: Rubik, sans-serif;
+  color: #20293d;
+}
+
+.jon-imagen {
+  height: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .jon-articulo-1 {
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+
+  .jon-articulo-2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 50px;
+  }
+}
+.felipe-div-section {
+  padding: 40px;
+}
+
+.felipe-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
+.felipe-div-cards {
+  background-color: white;
+  border-radius: 9px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.felipe-img-principal {
+  width: 90px;
+}
+
+.felipe-img-secundaria {
+  width: 200px;
+}
+
+.navbar {
+  padding: 15px 20%;
+}
+.navbar * {
+  margin: 0 15px;
+}
+
+.dropdown-menu {
+  padding: 5px;
+  text-align: left;
+}
+
+.Ana-comp {
+  width: 400px;
+}
+.Ana-comp * {
+  padding: 0;
+  margin: 5px;
+}
+
+.Ana-img-menu {
+  width: 210px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Ana-img-menu * {
+  margin: 5px;
+}
+
+header {
+  padding: 5%;
+}
+
+.Ana-jumbo {
+  padding: 0;
+  width: 50%;
+}
+.Ana-jumbo * {
+  margin: 15px;
+}
+
+.Ana-video {
+  z-index: -1;
+  align-items: center;
+}
+
+.Ana-Fechas {
+  width: 400px;
+}
+.Ana-Fechas ul {
+  flex-wrap: wrap;
+}
+.Ana-Fechas ul li {
+  margin: 0 15px;
+}
+
+.Ana-tarjeta {
+  text-align: center;
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Ana-tarjeta p {
+  font-size: 1rem;
+}
+.Ana-tarjeta .subs {
+  font-size: 1.2rem;
+}
+
+#egresados {
+  background-color: #ccc;
+  padding: 0 2%;
+  display: flex;
+}
+
+.egresados-empresa, #egresados .egresados-empresa {
+  margin-left: 30px;
+  display: grid;
+  grid-template: auto auto auto/auto auto auto;
+  justify-content: center;
+  padding: 2%;
+}
+
+.EDU-titulo {
+  margin-top: 100px;
+  margin-left: 28%;
+}
+.EDU-titulo .upercase {
+  color: #303030;
+  font-size: 18px;
+}
+
+.EDU-primer-titulo {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.EDU-parrafo {
+  margin-left: 28%;
+  margin-top: 35px;
+  width: 800px;
+  font-size: 18px;
+  line-height: 2;
+  color: #494949;
+}
+
+.EDU-Slide-uno {
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.EDU-Slide-dos {
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.EDU-Slide-tres {
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+
+.EDU-UL > li {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+.EDU-UL {
+  margin-left: 6%;
+  margin-bottom: 100px;
+}
+
+.EDU-Diseno > img {
+  width: 400px;
+}
+
+.EDU-Info {
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.EDU-Titulo-Tarjeta {
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.EDU-Titulo-Tarjeta > a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.EDU-Titulo-Tarjeta > a:hover {
+  text-decoration: none;
+  color: #464646;
+}
+
+.EDU-curso {
+  background-color: #774ed6;
+  padding: 3px;
+  padding-bottom: 5px;
+  padding-left: 14px;
+  padding-right: 12px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.EDU-P-T {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.EDU-B {
+  width: 350px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+  background-color: #ff6600;
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.EDU-B:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #ff4400;
+  transition: 0.5s ease;
+}
+
+.sombra {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.EDU-BASICO {
+  margin-top: -2px;
+}
+
+#egresados {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px 0;
+}
+
+#egresados .egresados-container {
+  font-size: 30px;
+  padding-top: 7%;
+}
+
+#egresados .egresados-container .egresados-titulo {
+  margin-bottom: 5px;
+}
+
+#egresados .egresados-container .egresados-parrafo {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#egresados .egresados-container button {
+  font-size: 16px;
+}
+
+.ofertas-educativas {
+  background: #3DF65A;
+  background-image: -webkit-linear-gradient(top, #3DF65A, #3DD01E);
+  background-image: -moz-linear-gradient(top, #3DF65A, #3DD01E);
+  background-image: -ms-linear-gradient(top, #3DF65A, #3DD01E);
+  background-image: -o-linear-gradient(top, #3DF65A, #3DD01E);
+  background-image: -webkit-gradient(to bottom, #3DF65A, #3DD01E);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 398px;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 25px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #99C624 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ofertas-educativas:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.egresados-empresa .img {
+  margin: 10px;
+}
+
+.egresados-empresa img {
+  width: 100%;
+  height: 150px;
+}
+
+/*# sourceMappingURL=main.css.map */

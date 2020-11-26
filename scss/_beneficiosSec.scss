@@ -1,0 +1,65 @@
+@import './global';
+
+%secciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50px;
+}
+
+.jon-titulo{
+    font-size: $size-title;
+    font-family: $font-title;
+    color: $azul;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.jon-articulo-1{
+    @extend %secciones;
+    padding-left: 200px;
+}
+
+.jon-articulo-2{
+    @extend %secciones;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.jon-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.jon-texto > h3{
+    font-size: $size-h3;
+    font-family: $font-title;
+    color: $azul;
+}
+
+.jon-texto > p{
+    font-size: $size-text;
+    font-family: $font-text;
+    color: $azul;
+}
+
+.jon-imagen{
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 600px){
+    .jon-articulo-1{
+        @extend %secciones;
+        padding-left: 0;
+        margin-bottom:50px;
+    }
+    
+    .jon-articulo-2{
+        @extend %secciones;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom:50px;
+    }
+} 
